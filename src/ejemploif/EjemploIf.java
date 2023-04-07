@@ -12,7 +12,7 @@ public class EjemploIf {
         System.out.print("Cual es la capital de España? ");
         resp = s.nextLine();
         
-        if ((respuesta.equals("Madrid")) || (respuesta.equals("Madrid")) ) { //respuesta.equals cuando es cadena de caracteres (palabra/s)
+        if ((resp.equals("Madrid")) || (resp.equals("Madrid")) ) { //respuesta.equals cuando es cadena de caracteres (palabra/s)
                                                                              //respuesta== cuando son números 
                                                                              // || significa `or`  
             System.out.println("¡La respuesta es correcta!");
